@@ -9,19 +9,19 @@ apt-get install dotnet-sdk-2.1 -y
 wget https://github.com/neo-project/neo-cli/releases/download/v2.10.1/neo-cli-linux-x64.zip
 unzip neo-cli-linux-x64.zip
 cd neo-cli
-wget wget https://s3-ap-northeast-1.amazonaws.com/neo-cli-resources/plugins/neo-cli-2.10.1/ImportBlocks.zip
+wget wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ImportBlocks.zip
 unzip ImportBlocks.zip
 rm ImportBlocks.zip
-wget https://s3-ap-northeast-1.amazonaws.com/neo-cli-resources/plugins/neo-cli-2.10.1/ApplicationLogs.zip
+wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ApplicationLogs.zip
 unzip ApplicationLogs.zip
 rm ApplicationLogs.zip
-wget https://s3-ap-northeast-1.amazonaws.com/neo-cli-resources/plugins/neo-cli-2.10.1/RpcNep5Tracker.zip
+wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/RpcNep5Tracker.zip
 unzip RpcNep5Tracker.zip
 rm RpcNep5Tracker.zip
-wget https://s3-ap-northeast-1.amazonaws.com/neo-cli-resources/plugins/neo-cli-2.10.1/RpcSystemAssetTracker.zip
+wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/RpcSystemAssetTracker.zip
 unzip RpcSystemAssetTracker.zip
 rm RpcSystemAssetTracker.zip
-wget https://s3-ap-northeast-1.amazonaws.com/neo-cli-resources/plugins/neo-cli-2.10.1/TransactionLogs.zip
+wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/TransactionLogs.zip
 unzip TransactionLogs.zip
 rm TransactionLogs.zip
 #etc.
