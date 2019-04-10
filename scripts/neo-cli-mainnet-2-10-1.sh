@@ -9,7 +9,7 @@ apt-get install dotnet-sdk-2.1 -y
 wget https://github.com/neo-project/neo-cli/releases/download/v2.10.1/neo-cli-linux-x64.zip
 unzip neo-cli-linux-x64.zip
 cd neo-cli
-wget wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ImportBlocks.zip
+wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ImportBlocks.zip
 unzip ImportBlocks.zip
 rm ImportBlocks.zip
 wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ApplicationLogs.zip
