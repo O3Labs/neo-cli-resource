@@ -10,11 +10,7 @@ apt-get install unzip -y
 wget https://github.com/neo-project/neo-cli/releases/download/v2.10.2/neo-cli-linux-x64.zip
 unzip neo-cli-linux-x64.zip
 cd neo-cli
-<<<<<<< HEAD:scripts/neo-cli-mainnet-2-10-2.sh
 wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/ImportBlocks.zip
-=======
-wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/ImportBlocks.zip
->>>>>>> 23419d088a660f2269e69aee60e116d3606d7db9:scripts/neo-cli-mainnet-2-10-1.sh
 unzip ImportBlocks.zip
 rm ImportBlocks.zip
 wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/ApplicationLogs.zip
@@ -26,14 +22,7 @@ rm RpcNep5Tracker.zip
 wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/RpcSystemAssetTracker.zip
 unzip RpcSystemAssetTracker.zip
 rm RpcSystemAssetTracker.zip
-<<<<<<< HEAD:scripts/neo-cli-mainnet-2-10-2.sh
 wget https://github.com/O3Labs/o3-explorer-plugins/releases/download/2.10.2/ExplorerRPC.zip
 unzip ExplorerRPC.zip
 rm ExplorerRPC.zip
 #etc.
-=======
-wget https://github.com/O3Labs/neo-cli-resource/raw/master/Plugins/neo-cli-2.10.1/TransactionLogs.zip
-unzip TransactionLogs.zip
-rm TransactionLogs.zip
-#etc.
->>>>>>> 23419d088a660f2269e69aee60e116d3606d7db9:scripts/neo-cli-mainnet-2-10-1.sh
