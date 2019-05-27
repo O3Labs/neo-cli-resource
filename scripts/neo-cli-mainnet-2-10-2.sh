@@ -16,7 +16,7 @@ rm ImportBlocks.zip
 wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/ApplicationLogs.zip
 unzip ApplicationLogs.zip
 rm ApplicationLogs.zip
-wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/RpcNep5Tracker.zip
+wget https://github.com/O3Labs/o3-explorer-plugins/releases/download/2.10.2/RpcNep5Tracker.zip
 unzip RpcNep5Tracker.zip
 rm RpcNep5Tracker.zip
 wget https://github.com/neo-project/neo-plugins/releases/download/v2.10.2/RpcSystemAssetTracker.zip
